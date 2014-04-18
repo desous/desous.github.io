@@ -1,0 +1,112 @@
+* {
+margin:0;
+padding:0;
+}
+
+html {
+height:100%;
+}
+
+#container {
+min-height: 100%;
+margin-bottom: -80px;
+position: relative;
+margin-right:auto;
+margin-left:auto;
+}
+
+#banner {
+width:100%;
+height:70px;
+background-color:#A64A00;
+}
+
+.bannertext {
+font-family:walrusgumbo;
+font-size:55px;
+color:white;
+margin-left:5px;
+width:375px;
+}
+
+.bannerbutton {
+float:right;
+display:block;
+width:140px;
+background-color:#cc5c00;
+height:40px;
+text-align:center;
+margin-top:30px;
+line-height:180%;
+text-decoration:none;
+font-size:21px;
+color:white;
+font-family:negotiate;
+}
+
+body {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+background-repeat:repeat-x;
+height:100%
+}
+
+#content {
+margin-left:auto;
+margin-right:auto;
+width:100%;
+
+}
+
+footer {
+background-color:#414141;
+width:100%;
+left: 0;
+height: 80px;
+position: relative;
+text-align:center;
+}
+
+.footerlinks:hover {
+text-decoration:underline;
+}
+
+.clearfooter {
+height: 80px;
+clear: both;
+}
+
+footer ul{
+list-style-type:none;
+margin:0;
+padding:0;
+font-size:15px;
+}
+
+footer ul li {
+display:inline;
+padding:40px;
+}
+
+footer ul li a {
+text-decoration:none;
+color:#c4c4c4;
+}
+
+
+
+@font-face {
+	font-family: "walrusgumbo";
+	src: url("walrusgumbo.ttf");
+}
+
+@font-face {
+	font-family:"negotiate";
+	src: url("negotiate.ttf");
+}
